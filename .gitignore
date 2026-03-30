@@ -13,11 +13,17 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Heavy / local data (Parquet tick files, combined files, etc.)
+# Heavy / local data (never commit ticks or combined files)
 *.parquet
+*.bi5
+*.lzma
 
-# Scratch outputs from notebooks
+# Dukascopy / notebook scratch outputs (local only)
 **/scratch_notebook_outputs/
+**/dukascopy/**/*.tmp
+
+# Optional: local run logs (regenerate from notebooks)
+notebooks/*_run.log
 
 # IDE / OS
 .cursor/

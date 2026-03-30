@@ -1,6 +1,10 @@
 # EUR/USD Data Pipeline
 
-This project is structured around a tick -> per-second -> event pipeline.
+This project is structured around a tick → per-second → event pipeline.
+
+**Repository:** [github.com/Rasul1908/EUR-USD_prediction](https://github.com/Rasul1908/EUR-USD_prediction)
+
+**Raw tick Parquet files are not in git** (see `.gitignore`). Download and merge ticks locally with `notebooks/ingest_dukascopy.ipynb` (Dukascopy → daily Parquet → optional single combined file in one flow).
 
 ## Folder layout
 
