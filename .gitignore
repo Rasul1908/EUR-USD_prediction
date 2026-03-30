@@ -1,0 +1,31 @@
+# Virtual env
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Heavy / local data (Parquet tick files, combined files, etc.)
+*.parquet
+
+# Scratch outputs from notebooks
+**/scratch_notebook_outputs/
+
+# IDE / OS
+.cursor/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*.local
