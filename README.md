@@ -1,6 +1,6 @@
 # EUR/USD Data Pipeline
 
-This project is structured around a tick → per-second → event pipeline.
+Short-term prediction work for the EUR/USD pair — structured as a tick → per-second → event pipeline.
 
 **Repository:** [github.com/Rasul1908/EUR-USD_prediction](https://github.com/Rasul1908/EUR-USD_prediction)
 
